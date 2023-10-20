@@ -1,0 +1,63 @@
+:root {
+  --blue: #17e4c2;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0 0 0/0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: poppins;
+}
+
+.hero {
+  min-height: 100vh;
+}
+
+.hero::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/sandy-millar-8vaQKYnawHw-unsplash.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale();
+  z-index: -1;
+}
+
+.hero h1, .hero h4, .hero p{
+  text-shadow: var(--shadow);
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  font-family: sacramento;
+  color: var(--blue);
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.hero .btn{
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+}
+
+.hero .btn:hover{
+    background-color: var(--blue);
+    color: white;
+}
+
+/* media queris */
+/* mobile */
+@media(max-width : 576px){
+
+.simply-countdown > .simply-section{
+  padding: 50px;
+  margin: 3px;
+}
+}

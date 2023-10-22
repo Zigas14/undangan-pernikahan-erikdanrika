@@ -59,7 +59,7 @@ body {
   font-weight: bold;
 }
 
-#info h1{
+#undangan h1{
   font-family: sacramento;
   font-weight: bold;
   font-size: 4rem;
@@ -67,7 +67,7 @@ body {
   color: var(--blue);
 }
 
-#info .di-bawah-judul{
+#undangan .di-bawah-judul{
   font-size: 1.2rem;
 }
 
@@ -81,7 +81,7 @@ body {
   font-size: 1rem;
 }
 
-#info{
+#undangan{
   min-height: 100vh;
   width: 100%;
   height: 100%;
@@ -93,8 +93,54 @@ body {
   font-size: 1rem;
 }
 
-#info .foto-cowo{
-  width: 200px;
+
+.col-8 h3{
+ font-family: sacramento;
+ font-size: 2.5rem;
+ color: var(--blue);
+ font-weight: bold;
+}
+
+.col-8 p{
+  font-size: 1rem;
+}
+
+.info{
+  background-color: var(--bg);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  color: white;
+}
+
+.info h2{
+  font-family: sacramento;
+  font-size:3rem ;
+}
+
+.info .alamat{
+  margin-top: 2rem;
+}
+
+.info a{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.info a:hover{
+  background-color: var(--blue);
+  color: white;
+}
+
+.info .tanggal{
+  margin-top: 8rem;
 }
 
 /* media queris */

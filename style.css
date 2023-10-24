@@ -177,6 +177,10 @@ nav{
   font-weight: bold;
 }
 
+.gift p{
+  transform: translateY(20px);
+}
+
 
 /* media queris */
 /* mobile */
@@ -198,5 +202,9 @@ nav{
   width: 70%;
   height: 70%;
   margin: 0;
+}
+
+.gift img{
+  width: 10%;
 }
 
